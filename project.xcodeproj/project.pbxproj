@@ -41,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D121FA622243A5F00EECE51 /* How to solve it using computers */ = {
+			isa = PBXGroup;
+			children = (
+				8D121FA422238FEA00EECE51 /* Data.hpp */,
+				8D121FA322238FEA00EECE51 /* Data.cpp */,
+				8D2EEA402223761500AFFA89 /* main.cpp */,
+			);
+			path = "How to solve it using computers";
+			sourceTree = "<group>";
+		};
 		8D2EEA342223761500AFFA89 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +70,7 @@
 		8D2EEA3F2223761500AFFA89 /* project */ = {
 			isa = PBXGroup;
 			children = (
-				8D2EEA402223761500AFFA89 /* main.cpp */,
-				8D121FA322238FEA00EECE51 /* Data.cpp */,
-				8D121FA422238FEA00EECE51 /* Data.hpp */,
+				8D121FA622243A5F00EECE51 /* How to solve it using computers */,
 			);
 			path = project;
 			sourceTree = "<group>";
