@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D121FA522238FEA00EECE51 /* Data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D121FA322238FEA00EECE51 /* Data.cpp */; };
+		8D121FA922243B9300EECE51 /* Swap_two_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D121FA822243B9300EECE51 /* Swap_two_numbers.cpp */; };
 		8D2EEA412223761500AFFA89 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EEA402223761500AFFA89 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		8D121FA322238FEA00EECE51 /* Data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Data.cpp; sourceTree = "<group>"; };
 		8D121FA422238FEA00EECE51 /* Data.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Data.hpp; sourceTree = "<group>"; };
+		8D121FA822243B9300EECE51 /* Swap_two_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Swap_two_numbers.cpp; sourceTree = "<group>"; };
 		8D2EEA3D2223761500AFFA89 /* project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2EEA402223761500AFFA89 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +53,14 @@
 			path = "How to solve it using computers";
 			sourceTree = "<group>";
 		};
+		8D121FA722243B4800EECE51 /* Algorithm Design Manual */ = {
+			isa = PBXGroup;
+			children = (
+				8D121FA822243B9300EECE51 /* Swap_two_numbers.cpp */,
+			);
+			path = "Algorithm Design Manual";
+			sourceTree = "<group>";
+		};
 		8D2EEA342223761500AFFA89 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		8D2EEA3F2223761500AFFA89 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				8D121FA722243B4800EECE51 /* Algorithm Design Manual */,
 				8D121FA622243A5F00EECE51 /* How to solve it using computers */,
 			);
 			path = project;
@@ -132,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D2EEA412223761500AFFA89 /* main.cpp in Sources */,
+				8D121FA922243B9300EECE51 /* Swap_two_numbers.cpp in Sources */,
 				8D121FA522238FEA00EECE51 /* Data.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

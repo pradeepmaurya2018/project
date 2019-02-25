@@ -2,7 +2,7 @@
 #include "Data.hpp"
 using namespace std;
 void ration();
-int main(int argc, const char * argv[]) {
+int main12(int argc, const char * argv[]) {
     double val;
     int data;
     double dataType;
