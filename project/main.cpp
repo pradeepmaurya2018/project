@@ -1,16 +1,24 @@
-//
-//  main.cpp
-//  project
-//
-//  Created by Pradeep Maurya on 25/02/19.
-//  Copyright © 2019 pradeep maurya. All rights reserved.
-//
-//this is another comment
-
 #include <iostream>
+using namespace std;
+class A
+{
+    
+};
+class B
+{
+    
+};
+
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    double val;
+    int data;
+    double dataType;
+    float integration;
+    
+    const int g=56;
+    
     std::cout << "Hello, World!\n";
     return 0;
 }
